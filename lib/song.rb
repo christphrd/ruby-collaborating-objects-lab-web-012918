@@ -14,7 +14,7 @@ class Song
     new_song_instance.artist = Artist.find_or_create_by_name(artist_name)
     #binding.pry
     new_song_instance.artist.add_song(new_song_instance)
-    binding.pry
+    #binding.pry
     new_song_instance
   end
 end
